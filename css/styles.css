@@ -85,7 +85,11 @@ nav a:hover {
     margin-bottom: 20px;
 }
 
-
+element.style {
+    max-width: 180px;
+    border-radius: 50%;
+}
+   
  
 a {
     cursor: pointer;
@@ -102,11 +106,6 @@ a {
     margin-bottom: 20px;
 }
 
-element.style {
-    max-width: 180px;
-    border-radius: 50%;
-}
-   
 .about p {
     font-size: 18px;
     max-width: 800px;
