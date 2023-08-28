@@ -141,3 +141,10 @@ footer {
     margin-top: 60px;
     flex-direction: column;
 }
+
+.Menu .coffee-menu {
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+    flex-direction: column;
+}
