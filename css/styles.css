@@ -75,15 +75,23 @@ nav a:hover {
 }
 
 .menu {
+    display:flex;
     padding: 100px 0;
     text-align: center;
 }
 
 .menu h2 {
-
+    display: flex;
     font-size: 30px;
     margin-bottom: 20px;
 }
+
+element.style {
+    max-width: 180px;
+    border-radius: 50%;
+}
+   
+ 
 a {
     cursor: pointer;
 }
@@ -103,12 +111,6 @@ a {
     font-size: 18px;
     max-width: 800px;
     margin: 0 auto;
-}
-.menu img {
-
-    max-width: 180px;
-    border-radius: 50%;
-    
 }
 
 .contact {
