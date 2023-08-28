@@ -104,6 +104,9 @@ a {
     max-width: 800px;
     margin: 0 auto;
 }
+.menu img{
+    max-width:50%;
+}
 
 .contact {
     padding: 100px 0;
