@@ -20,7 +20,34 @@
             </ul>
         </nav>
     </header>
-    
+    <section id="menu" class="hero">
+        <img src="coffee-shop-interior.jpg" alt="Coffee Shop Interior">
+        <h1>Sip, Relax, Repeat.</h1>
+    </section>
+    <section class="featured-products">
+        <h2>Featured Products</h2>
+        <div class="product">
+            <img src="coffee-blend-1.jpg" alt="Coffee Blend 1">
+            <h3>Coffee Blend 1</h3>
+            <p>A smooth and rich blend of beans from Central and South America.</p>
+        </div>
+        <div class="product">
+            <img src="coffee-blend-2.jpg" alt="Coffee Blend 2">
+            <h3>Coffee Blend 2</h3>
+            <p>A bold and flavorful blend of beans from Africa and Asia.</p>
+        </div>
+        <div class="product">
+            <img src="pastry-1.jpg" alt="Pastry 1">
+            <h3>Pastry 1</h3>
+            <p>A flaky and buttery croissant filled with chocolate.</p>
+        </div>
+        <div class="product">
+            <img src="pastry-2.jpg" alt="Pastry 2">
+            <h3>Pastry 2</h3>
+            <p>A moist and flavorful muffin topped with streusel.</p>
+        </div>
+    </section>
+
     <section id="home" class="hero">
         <img src="img/photo2.jpg" alt="CozyCup Café Logo">
         <h1><font color="#946B00"> Welcome to CozyCup Café</font></h1>
@@ -28,26 +55,36 @@
         <a href="#menu" class="cta-button">Explore Menu</a>
     </section>
 
-    <section id="menu" class="menu">
-        <h2>Our Menu</h2>
-        <h3>Coffee Menu</h3>
-        Espresso,
-        Latte,
-        Cappuccino
-
-        <b></b>
-        <h3>Pastry Menu</h3>
-        Croissant,
-        Muffins,
-        Scones
-        <!-- Add menu items here -->
-    </section>
+    <main>
+        <section id="menu" class="menu">
+            <h2>Coffee Menu</h2>
+            <ul>
+                <li>Espresso - $2.50</li>
+                <li>Latte - $3.00</li>
+                <li>Cappuccino - $3.50</li>
+            </ul>
+            <h2>Pastry Menu</h2>
+            <ul>
+                <li>Croissant - $2.00</li>
+                <li>Muffin - $2.50</li>
+                <li>Scone - $3.00</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </footer>
 
     <section id="about" class="about">
         <h2>About Us</h2>
         <h3>"Perks & Passions: The History of 'Cozy Cup'"</h3>
         <p>Discover the story behind CozyCup Café...</p>
-        <h4>"In the heart of a bustling urban neighborhood, "Cozy Cup" began as a modest coffee shop in the 1950s. Founded by Serge and Kenneth, it evolved over the decades into an artistic haven in the 1960s, an artisanal gem in the 1980s, and a digital-age hotspot in the 2000s. During the pandemic in the 2020s, it adapted, supporting the community. Today, run by their grandchildren, it's a living legacy, a place where the love for coffee and community lives on, one cup at a time."</h4>
+        <p>"In the heart of a bustling urban neighborhood, "Cozy Cup" began as a modest coffee shop in the 1950s. Founded by Serge and Kenneth, it evolved over the decades into an artistic haven in the 1960s, an artisanal gem in the 1980s, and a digital-age hotspot in the 2000s. During the pandemic in the 2020s, it adapted, supporting the community. Today, run by their grandchildren, it's a living legacy, a place where the love for coffee and community lives on, one cup at a time."</p>
         &ensp;
         <img src="img/serge.jpg" width="400" height="400" />
         <h2>Cafe Owner</h2>
@@ -64,12 +101,26 @@
     </section>
 
     <section id="contact" class="contact">
-        <h2>Contact Us</h2>
-        <h3>Tiniguiban PPC</h3>
-        <h3>09380978958</h3>
-        <h3>cupcoffee28@gmail.com</h3>
-
-        <p>Have questions or feedback? Reach out to us...</p>
+        <section class="contact">
+            <h2>Contact Us</h2>
+            <div class="contact-info">
+                <p>CozyCup Cafe</p>
+                <p>Tiniguiban,PPC</p>
+                <p>Phone: 09234123445</p>
+                <p>Email: cozycafe@gmail.com</p>
+            </div>
+            <div class="contact-form">
+                <form action="submit_form.php" method="post">
+                    <input type="text" name="name" placeholder="Name">
+                    <input type="email" name="email" placeholder="Email">
+                    <input type="message" name="message" placeholder="Message">
+                    <input type="submit" value="Send">
+                </form>
+            </div>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.830000583771!2d-122.41904128451023!3d37.774626</iframe>
+            </div>
+        </section>
     </section>
 
     <footer>
